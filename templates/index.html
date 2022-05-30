@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Homepage</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<header>
+    <div class="wrapper">
+    <div class="logo">
+    <img src="images/waf-logo.png">
+</div>
+<ul class="nav-area">
+<li><a href="{{url_for('index')}}">Home</a></li>
+<li><a href="{{url_for('view')}}">Details</a></li>
+<li><a href="{{url_for('dashboard')}}">Site monitoring</a></li>
+<li><a href="{{url_for('contactus')}}">Contact</a></li>
+</ul>
+</div>
+<div class="welcome-text">
+<h1>Web Application <span>Firewall</span></h1>
+</div>
+</header>
+</body>
+</html>

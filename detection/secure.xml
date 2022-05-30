@@ -1,0 +1,55 @@
+
+<configuration>
+<verbs>
+<verb>GET</verb>
+<verb>POST</verb>
+</verbs>
+<headers>
+<rule name="Accept-Charset"
+value="ISO-8859-1"/>
+<rule name="Accept-Charset"
+value="utf-8"/>
+</headers>
+<directories>
+<directory name="templates">
+<file name="contacts.html"/>
+<argument name="Firstname"
+requiredField="true">
+<stats
+Special=""
+digitDev="0.0"
+digitMean="100.0"
+lengthDev="0.1410730099"
+lengthMean="1.93"
+letterDev="0.0"
+letterMean="0.0"
+otherDev="0.0"
+otherMean="0.0"/>
+</argument>
+<argument name="Lastname"
+requiredField="true">
+<stats
+Special=""
+digitDev="0.0"
+digitMean="100.0"
+lengthDev="0.1410730099"
+lengthMean="1.93"
+letterDev="0.0"
+letterMean="0.0"
+otherDev="0.0"
+otherMean="0.0"/>
+</argument>
+
+<argument name="Web Link"
+requiredField="true">
+<stats
+Special=""
+digitDev="0.0"
+digitMean="100.0"
+lengthDev="0.1410730099"
+lengthMean="1.93"
+letterDev="0.0"
+letterMean="0.0"
+otherDev="0.0"
+otherMean="0.0"/>
+</argument>
